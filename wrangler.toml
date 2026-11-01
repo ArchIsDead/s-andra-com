@@ -1,0 +1,12 @@
+name = "s-andra-com"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[[routes]]
+pattern = "s.4ndra.com"
+custom_domain = true
